@@ -1,0 +1,1152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Envisioned Living Spaces · Interior Design & Architecture Journal</title>
+  <meta name="description" content="Independent editorial on interior design, architecture, materials, space planning, and modern homes. In-depth guides, case studies, and design thinking.">
+  <meta name="author" content="Envisioned Living Spaces">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://www.envisionedlivingspaces.com/">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Envisioned Living Spaces · Interior Design & Architecture Journal">
+  <meta property="og:description" content="In-depth articles on residential architecture, interior design, materials, lighting, and sustainable spaces.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.envisionedlivingspaces.com/">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=1200&h=630&fit=crop">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:site_name" content="Envisioned Living Spaces">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Envisioned Living Spaces · Interior Design & Architecture Journal">
+  <meta name="twitter:description" content="Long-form design journalism for architects, designers, and thoughtful homeowners.">
+  <meta name="twitter:image" content="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=1200&h=630&fit=crop">
+
+  <!-- Schema.org -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Blog",
+    "name": "Envisioned Living Spaces",
+    "description": "Independent editorial on interior design, architecture, and modern living.",
+    "url": "https://www.envisionedlivingspaces.com/",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Envisioned Living Spaces"
+    },
+    "blogPost": [
+      {
+        "@type": "BlogPosting",
+        "headline": "The Quiet Power of Negative Space in Modern Interiors",
+        "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&h=500&fit=crop",
+        "author": { "@type": "Person", "name": "Maya Chen" },
+        "datePublished": "2025-02-18",
+        "readingTime": "8 min"
+      }
+    ]
+  }
+  </script>
+
+  <!-- Fonts & Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+  <style>
+    /* ---------- RESET & BASE ---------- */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    :root {
+      --ink: #1e1e1e;
+      --paper: #faf9f7;
+      --muted: #6b6b6b;
+      --border: #e3e1dc;
+      --accent: #b85c38;
+      --accent-soft: #f4ede9;
+      --serif: 'Playfair Display', Georgia, serif;
+      --sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      --radius: 12px;
+      --shadow-sm: 0 2px 8px rgba(0,0,0,0.02);
+      --shadow-md: 0 6px 20px rgba(0,0,0,0.04);
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background: var(--paper);
+      color: var(--ink);
+      font-family: var(--sans);
+      font-weight: 400;
+      line-height: 1.6;
+      font-size: 16px;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    img {
+      max-width: 100%;
+      display: block;
+      height: auto;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    /* ---------- TYPOGRAPHY ---------- */
+    h1, h2, h3, h4 {
+      font-family: var(--serif);
+      font-weight: 500;
+      line-height: 1.2;
+      letter-spacing: -0.01em;
+    }
+
+    h1 { font-size: 2.6rem; }
+    h2 { font-size: 2rem; margin: 2rem 0 1rem; }
+    h3 { font-size: 1.5rem; margin: 1.5rem 0 0.8rem; }
+    h4 { font-size: 1.2rem; margin: 1.2rem 0 0.6rem; }
+
+    p {
+      margin-bottom: 1.2rem;
+      color: #2a2a2a;
+    }
+
+    /* ---------- LAYOUT ---------- */
+    .container {
+      max-width: 1260px;
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+
+    /* ---------- HEADER ---------- */
+    .site-header {
+      border-bottom: 1px solid var(--border);
+      background: var(--paper);
+      padding: 16px 0;
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      backdrop-filter: blur(8px);
+      background: rgba(250, 249, 247, 0.92);
+    }
+
+    .header-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .logo {
+      display: flex;
+      align-items: baseline;
+      gap: 8px;
+      font-family: var(--serif);
+      font-size: 1.6rem;
+      font-weight: 500;
+      letter-spacing: -0.02em;
+      color: var(--ink);
+    }
+
+    .logo span {
+      font-family: var(--sans);
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.2em;
+      color: var(--muted);
+      font-weight: 400;
+      margin-left: 6px;
+    }
+
+    .main-nav {
+      display: flex;
+      gap: 32px;
+      font-size: 0.9rem;
+      font-weight: 450;
+      color: #3a3a3a;
+      flex-wrap: wrap;
+    }
+
+    .main-nav a {
+      padding-bottom: 4px;
+      border-bottom: 1px solid transparent;
+      transition: border-color 0.2s;
+    }
+
+    .main-nav a:hover {
+      border-bottom-color: var(--accent);
+    }
+
+    .search-icon {
+      color: var(--ink);
+      font-size: 1rem;
+      cursor: pointer;
+      padding: 6px;
+    }
+
+    /* ---------- SEARCH BAR (hidden by default) ---------- */
+    .search-bar {
+      display: none;
+      padding: 16px 0;
+      border-bottom: 1px solid var(--border);
+      background: var(--paper);
+    }
+
+    .search-bar.active {
+      display: block;
+    }
+
+    .search-bar input {
+      width: 100%;
+      padding: 14px 18px;
+      border: 1px solid var(--border);
+      border-radius: 40px;
+      font-family: var(--sans);
+      font-size: 1rem;
+      background: white;
+      outline: none;
+    }
+
+    .search-bar input:focus {
+      border-color: var(--accent);
+    }
+
+    /* ---------- CATEGORY FILTER ---------- */
+    .category-strip {
+      padding: 24px 0 8px;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 32px;
+    }
+
+    .category-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px 20px;
+      list-style: none;
+    }
+
+    .category-list button {
+      background: none;
+      border: none;
+      font-family: var(--sans);
+      font-size: 0.85rem;
+      font-weight: 450;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      color: var(--muted);
+      cursor: pointer;
+      padding: 6px 0;
+      border-bottom: 1px solid transparent;
+      transition: all 0.2s;
+    }
+
+    .category-list button:hover,
+    .category-list button.active {
+      color: var(--ink);
+      border-bottom-color: var(--accent);
+    }
+
+    /* ---------- MAIN GRID ---------- */
+    .main-grid {
+      display: grid;
+      grid-template-columns: 1fr 320px;
+      gap: 56px;
+      margin: 40px 0 72px;
+    }
+
+    /* ---------- FEATURED (editorial card) ---------- */
+    .featured-article {
+      margin-bottom: 48px;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 40px;
+    }
+
+    .featured-article img {
+      width: 100%;
+      height: 360px;
+      object-fit: cover;
+      border-radius: var(--radius);
+      margin-bottom: 24px;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .cat-label {
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: var(--accent);
+      font-weight: 600;
+      margin-bottom: 12px;
+      display: inline-block;
+    }
+
+    .featured-article h2 {
+      font-size: 2.2rem;
+      margin: 0 0 16px;
+      line-height: 1.2;
+    }
+
+    .featured-article h2 a:hover {
+      color: var(--accent);
+    }
+
+    .meta {
+      font-size: 0.8rem;
+      color: var(--muted);
+      display: flex;
+      gap: 24px;
+      margin-bottom: 16px;
+      font-weight: 400;
+    }
+
+    .excerpt {
+      font-size: 1.05rem;
+      color: #3a3a3a;
+      margin-bottom: 20px;
+      max-width: 90%;
+    }
+
+    .read-more {
+      font-size: 0.9rem;
+      font-weight: 500;
+      color: var(--accent);
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .read-more i {
+      font-size: 0.8rem;
+      transition: transform 0.2s;
+    }
+
+    .read-more:hover i {
+      transform: translateX(4px);
+    }
+
+    /* ---------- ARTICLE CARDS (list) ---------- */
+    .article-list {
+      display: flex;
+      flex-direction: column;
+      gap: 36px;
+    }
+
+    .article-card {
+      display: grid;
+      grid-template-columns: 1fr 200px;
+      gap: 32px;
+      padding-bottom: 36px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .article-card:last-child {
+      border-bottom: none;
+    }
+
+    .article-card h3 {
+      font-size: 1.5rem;
+      margin: 0 0 8px;
+      line-height: 1.3;
+    }
+
+    .article-card h3 a:hover {
+      color: var(--accent);
+    }
+
+    .article-card .meta {
+      margin-bottom: 12px;
+    }
+
+    .article-card .excerpt {
+      font-size: 0.95rem;
+      margin-bottom: 0;
+      max-width: 100%;
+    }
+
+    .article-card img {
+      width: 100%;
+      height: 140px;
+      object-fit: cover;
+      border-radius: var(--radius);
+    }
+
+    /* ---------- SIDEBAR ---------- */
+    .sidebar {
+      font-size: 0.9rem;
+    }
+
+    .sidebar-widget {
+      margin-bottom: 48px;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 32px;
+    }
+
+    .sidebar-widget:last-child {
+      border-bottom: none;
+    }
+
+    .sidebar-widget h4 {
+      font-family: var(--sans);
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: var(--muted);
+      margin-bottom: 24px;
+      font-weight: 600;
+    }
+
+    .popular-item {
+      margin-bottom: 24px;
+    }
+
+    .popular-item .pop-title {
+      font-weight: 500;
+      font-family: var(--serif);
+      font-size: 1.1rem;
+      margin-bottom: 4px;
+      line-height: 1.3;
+    }
+
+    .popular-item .pop-title a:hover {
+      color: var(--accent);
+    }
+
+    .popular-item .pop-meta {
+      font-size: 0.75rem;
+      color: var(--muted);
+    }
+
+    .author-box {
+      text-align: left;
+      margin-top: 16px;
+    }
+
+    .author-box p {
+      font-size: 0.9rem;
+      color: #3a3a3a;
+      margin-bottom: 12px;
+    }
+
+    .editor-info {
+      background: #f0eeeb;
+      padding: 28px 20px;
+      border-radius: var(--radius);
+      margin-top: 16px;
+    }
+
+    .editor-info h5 {
+      font-family: var(--serif);
+      font-size: 1.2rem;
+      margin-bottom: 4px;
+    }
+
+    .editor-info .role {
+      font-size: 0.75rem;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      margin-bottom: 12px;
+    }
+
+    .editor-info p {
+      font-size: 0.9rem;
+      margin-bottom: 0;
+    }
+
+    /* ---------- FAQ SECTION ---------- */
+    .faq-section {
+      background: #ffffff;
+      border-top: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+      padding: 64px 0;
+      margin: 72px 0;
+    }
+
+    .faq-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 48px;
+    }
+
+    .faq-item {
+      border-bottom: 1px solid var(--border);
+      padding: 20px 0;
+      cursor: pointer;
+    }
+
+    .faq-item:last-child {
+      border-bottom: none;
+    }
+
+    .faq-question {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-weight: 500;
+      font-family: var(--serif);
+      font-size: 1.2rem;
+    }
+
+    .faq-question i {
+      font-size: 0.9rem;
+      color: var(--muted);
+      transition: transform 0.2s;
+    }
+
+    .faq-item.active .faq-question i {
+      transform: rotate(180deg);
+    }
+
+    .faq-answer {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.3s ease;
+      font-size: 0.95rem;
+      color: #3a3a3a;
+      padding-right: 24px;
+    }
+
+    .faq-item.active .faq-answer {
+      max-height: 300px;
+      padding-top: 16px;
+    }
+
+    /* ---------- NEWSLETTER ---------- */
+    .newsletter {
+      background: #1e1e1e;
+      color: #f0eeeb;
+      padding: 64px 0;
+      margin: 48px 0 0;
+    }
+
+    .newsletter .container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 32px;
+    }
+
+    .newsletter h3 {
+      font-family: var(--serif);
+      font-size: 1.8rem;
+      margin: 0 0 6px;
+      color: #fff;
+    }
+
+    .newsletter p {
+      color: #b0a9a3;
+      margin: 0;
+      font-size: 0.95rem;
+    }
+
+    .newsletter-form {
+      display: flex;
+      gap: 12px;
+    }
+
+    .newsletter-form input {
+      padding: 14px 20px;
+      border-radius: 40px;
+      border: 1px solid #444;
+      background: transparent;
+      color: #fff;
+      font-family: var(--sans);
+      font-size: 0.95rem;
+      width: 280px;
+      outline: none;
+    }
+
+    .newsletter-form input::placeholder {
+      color: #7a7a7a;
+    }
+
+    .newsletter-form button {
+      background: var(--accent);
+      border: none;
+      border-radius: 40px;
+      padding: 0 28px;
+      font-weight: 500;
+      color: #fff;
+      font-family: var(--sans);
+      font-size: 0.95rem;
+      cursor: pointer;
+      transition: background 0.2s;
+      white-space: nowrap;
+    }
+
+    .newsletter-form button:hover {
+      background: #9e4d2f;
+    }
+
+    /* ---------- FOOTER ---------- */
+    .site-footer {
+      background: #f0eeeb;
+      padding: 56px 0 32px;
+      font-size: 0.85rem;
+      color: #3a3a3a;
+      border-top: 1px solid var(--border);
+    }
+
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr 1fr;
+      gap: 48px;
+      margin-bottom: 48px;
+    }
+
+    .footer-grid h5 {
+      font-family: var(--sans);
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: var(--muted);
+      margin-bottom: 20px;
+      font-weight: 600;
+    }
+
+    .footer-grid ul {
+      list-style: none;
+    }
+
+    .footer-grid li {
+      margin-bottom: 10px;
+    }
+
+    .footer-grid a:hover {
+      color: var(--accent);
+    }
+
+    .footer-bottom {
+      border-top: 1px solid var(--border);
+      padding-top: 24px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 16px;
+      font-size: 0.8rem;
+      color: var(--muted);
+    }
+
+    /* ---------- RESPONSIVE ---------- */
+    @media (max-width: 1024px) {
+      .main-grid {
+        grid-template-columns: 1fr;
+        gap: 40px;
+      }
+      .faq-grid {
+        grid-template-columns: 1fr;
+        gap: 0;
+      }
+      .footer-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    @media (max-width: 768px) {
+      h1 { font-size: 2rem; }
+      h2 { font-size: 1.7rem; }
+      .header-inner {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .main-nav {
+        gap: 20px;
+        font-size: 0.8rem;
+      }
+      .article-card {
+        grid-template-columns: 1fr;
+      }
+      .article-card img {
+        height: 200px;
+        order: -1;
+      }
+      .featured-article img {
+        height: 220px;
+      }
+      .newsletter .container {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .newsletter-form {
+        width: 100%;
+        flex-direction: column;
+      }
+      .newsletter-form input {
+        width: 100%;
+      }
+      .newsletter-form button {
+        padding: 14px 28px;
+      }
+      .footer-grid {
+        grid-template-columns: 1fr;
+        gap: 32px;
+      }
+      .featured-article h2 {
+        font-size: 1.8rem;
+      }
+    }
+
+    /* ---------- HIDDEN / VISIBILITY ---------- */
+    .hidden { display: none; }
+
+    /* ---------- ARTICLE BODY (long-form) ---------- */
+    .article-body h3 {
+      margin-top: 2rem;
+    }
+
+    .article-body p {
+      max-width: 720px;
+    }
+
+    .article-body blockquote {
+      border-left: 4px solid var(--accent);
+      padding-left: 24px;
+      margin: 32px 0;
+      font-family: var(--serif);
+      font-size: 1.2rem;
+      color: #2a2a2a;
+    }
+
+    /* subtle divider */
+    .divider {
+      width: 60px;
+      height: 2px;
+      background: var(--accent);
+      margin: 32px 0;
+    }
+  </style>
+</head>
+<body>
+
+<!-- ========== HEADER ========== -->
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="#" class="logo">Envisioned <span>Living Spaces</span></a>
+    <nav class="main-nav" aria-label="Main navigation">
+       <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="terms.html">Terms Of Privacy</a></li>
+                    <li><a href="privacy.html">Privacy Policy</a></li>
+					<li><a href="cookies.html">Cookies Policy</a></li> 
+                    <li><a href="disclaimer.html">Disclaimer</a></li>
+                    <li><a href="categories.html">Categories</a></li>
+    </nav>
+    <div class="search-icon" id="searchToggle" aria-label="Search articles">
+      <i class="fas fa-search"></i>
+    </div>
+  </div>
+  <div class="container search-bar" id="searchBar">
+    <input type="text" id="searchInput" placeholder="Search articles, topics, or keywords…" aria-label="Search articles">
+  </div>
+</header>
+
+<!-- ========== CATEGORY FILTER ========== -->
+<div class="container category-strip">
+  <ul class="category-list" id="categoryList">
+    <li><button class="active" data-category="all">All</button></li>
+    <li><button data-category="interior">Interior Design</button></li>
+    <li><button data-category="architecture">Architecture</button></li>
+    <li><button data-category="home">Home Design</button></li>
+    <li><button data-category="materials">Materials</button></li>
+    <li><button data-category="space">Space Planning</button></li>
+    <li><button data-category="lighting">Lighting</button></li>
+    <li><button data-category="furniture">Furniture</button></li>
+    <li><button data-category="modern">Modern Homes</button></li>
+  </ul>
+</div>
+
+<!-- ========== MAIN CONTENT ========== -->
+<main class="container main-grid" id="mainContent">
+
+  <!-- LEFT COLUMN: ARTICLES -->
+  <div class="content-column" id="articleContainer">
+
+    <!-- FEATURED ARTICLE -->
+    <article class="featured-article" data-category="interior">
+      <img src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=1200&h=700&fit=crop" alt="Minimalist living room with large windows and soft natural light, neutral tones">
+      <span class="cat-label">Interior Design</span>
+      <h2><a href="#">The Quiet Power of Negative Space in Modern Interiors</a></h2>
+      <div class="meta">
+        <span><i class="far fa-user"></i> Maya Chen</span>
+        <span><i class="far fa-calendar"></i> Feb 18, 2025</span>
+        <span><i class="far fa-clock"></i> 8 min read</span>
+      </div>
+      <p class="excerpt">Why the most memorable rooms are often the ones that dare to leave things out. We explore the architectural and psychological benefits of negative space, and how to apply it without making a home feel empty.</p>
+      <a href="#" class="read-more">Read article <i class="fas fa-arrow-right"></i></a>
+    </article>
+
+    <!-- ARTICLE LIST (rich, long-form) -->
+    <div class="article-list" id="articleList">
+
+      <article class="article-card" data-category="architecture">
+        <div>
+          <span class="cat-label">Architecture</span>
+          <h3><a href="#">The New Vernacular: How Regional Materials Are Reshaping Residential Architecture</a></h3>
+          <div class="meta"><span>James Okonkwo</span><span>Feb 12, 2025</span><span>12 min read</span></div>
+          <p class="excerpt">From rammed earth in New Mexico to reclaimed timber in Scandinavia, architects are returning to local materials—not just for sustainability, but for a deeper sense of place.</p>
+        </div>
+        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=280&fit=crop" alt="Modern house with natural stone and timber facade, large glass windows">
+      </article>
+
+      <article class="article-card" data-category="home">
+        <div>
+          <span class="cat-label">Home Design</span>
+          <h3><a href="#">The 2025 Kitchen: Functional Minimalism Meets Warm Materials</a></h3>
+          <div class="meta"><span>Elena Rossi</span><span>Feb 8, 2025</span><span>10 min read</span></div>
+          <p class="excerpt">Handleless cabinets, integrated appliances, and a return to tactile surfaces. We look at the kitchens that prioritize both workflow and atmosphere.</p>
+        </div>
+        <img src="https://images.unsplash.com/photo-1556911220-bff31c812dba?w=400&h=280&fit=crop" alt="Modern kitchen with warm wood cabinets, white countertops, and pendant lights">
+      </article>
+
+      <article class="article-card" data-category="lighting">
+        <div>
+          <span class="cat-label">Lighting</span>
+          <h3><a href="#">Layered Lighting: A Room-by-Room Guide to Getting It Right</a></h3>
+          <div class="meta"><span>Maya Chen</span><span>Feb 2, 2025</span><span>9 min read</span></div>
+          <p class="excerpt">Ambient, task, and accent—how to combine all three without clutter. Practical advice for living rooms, bedrooms, and hallways.</p>
+        </div>
+        <img src="https://images.unsplash.com/photo-1540932239986-30128078f3c5?w=400&h=280&fit=crop" alt="Warm interior with layered lighting, floor lamp and wall sconces">
+      </article>
+
+      <article class="article-card" data-category="materials">
+        <div>
+          <span class="cat-label">Materials</span>
+          <h3><a href="#">Why Lime Plaster Is Having a Moment (Again)</a></h3>
+          <div class="meta"><span>James Okonkwo</span><span>Jan 28, 2025</span><span>7 min read</span></div>
+          <p class="excerpt">Breathable, beautiful, and centuries-old. We explore the comeback of lime plaster in contemporary interiors and what it means for indoor air quality.</p>
+        </div>
+        <img src="https://images.unsplash.com/photo-1615529182904-14819c35db37?w=400&h=280&fit=crop" alt="Textured lime plaster wall in soft beige with natural light">
+      </article>
+
+      <article class="article-card" data-category="space">
+        <div>
+          <span class="cat-label">Space Planning</span>
+          <h3><a href="#">The 5 Most Common Floor Plan Mistakes (and How to Avoid Them)</a></h3>
+          <div class="meta"><span>Elena Rossi</span><span>Jan 20, 2025</span><span>11 min read</span></div>
+          <p class="excerpt">From awkward circulation to underused corners, we break down the planning errors that haunt homeowners—and the simple fixes that work.</p>
+        </div>
+        <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=400&h=280&fit=crop" alt="Open plan living space with clear circulation and furniture zones">
+      </article>
+
+      <article class="article-card" data-category="furniture">
+        <div>
+          <span class="cat-label">Furniture</span>
+          <h3><a href="#">The Return of the Statement Chair: Why One Piece Can Anchor a Room</a></h3>
+          <div class="meta"><span>Maya Chen</span><span>Jan 14, 2025</span><span>6 min read</span></div>
+          <p class="excerpt">A single well-chosen chair can define a reading nook, a conversation area, or even an entire living room. Here’s how to choose one that lasts.</p>
+        </div>
+        <img src="https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?w=400&h=280&fit=crop" alt="Mid-century modern accent chair in a minimalist living room">
+      </article>
+
+      <article class="article-card" data-category="modern">
+        <div>
+          <span class="cat-label">Modern Homes</span>
+          <h3><a href="#">Inside a Passive House That Proves Sustainability Can Be Beautiful</a></h3>
+          <div class="meta"><span>James Okonkwo</span><span>Jan 8, 2025</span><span>14 min read</span></div>
+          <p class="excerpt">A case study of a family home that meets rigorous energy standards without sacrificing warmth or style. Lessons for any renovation.</p>
+        </div>
+        <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=400&h=280&fit=crop" alt="Contemporary passive house with large triple-glazed windows and wood cladding">
+      </article>
+
+      <!-- Additional article with long-form body -->
+      <article class="article-card" data-category="interior">
+        <div>
+          <span class="cat-label">Interior Design</span>
+          <h3><a href="#">Color Psychology in Real Homes: Beyond the Usual Advice</a></h3>
+          <div class="meta"><span>Elena Rossi</span><span>Dec 30, 2024</span><span>13 min read</span></div>
+          <p class="excerpt">We move past “blue is calming” to explore how saturation, undertone, and context change the way color behaves in a space.</p>
+        </div>
+        <img src="https://images.unsplash.com/photo-1598928506311-c55ded91a20c?w=400&h=280&fit=crop" alt="Living room with deep green walls and neutral furnishings">
+      </article>
+
+    </div><!-- /article-list -->
+
+    <!-- LONG-FORM EDITORIAL SECTION (article body style) -->
+    <div class="article-body" style="margin-top: 72px; border-top: 1px solid var(--border); padding-top: 48px;">
+      <h2 style="font-size: 2rem; margin-bottom: 24px;">Design Principles: The Timeless Rules of Good Space</h2>
+      <p>Great interiors are not about trends. They are about a set of principles that have remained constant for centuries: proportion, light, balance, and material honesty. In this long-form guide, we unpack these ideas with real-world examples.</p>
+      <p>Proportion is the relationship between objects and the human body. It’s why a 3-meter ceiling feels grand and a 2.4-meter one feels cozy. Scale, on the other hand, is how those proportions relate to each other. A massive sofa in a small room is a scale problem—not a proportion problem.</p>
+      <blockquote>“The room should feel as though it has always been there—even if it was built last year.” — Anonymous architect</blockquote>
+      <p>Light is the most underrated material. It shapes how we perceive color, texture, and depth. In northern climates, maximizing daylight is critical; in hotter regions, controlling it is equally important. We’ll look at both.</p>
+      <p>Balance doesn’t mean symmetry. It means visual weight. A heavy stone fireplace can be balanced by a large window, a dark wall by a pale floor. These are the subtle moves that make a room feel resolved.</p>
+      <p>Material honesty—using materials for what they are—creates authenticity. A concrete wall should look like concrete, not faux stone. Wood should show its grain. This principle is central to modern architecture and enduring interiors.</p>
+      <div class="divider"></div>
+      <p><strong>Related reading:</strong> <a href="#" style="color: var(--accent); border-bottom: 1px solid var(--accent);">The Quiet Power of Negative Space</a> · <a href="#" style="color: var(--accent); border-bottom: 1px solid var(--accent);">Layered Lighting Guide</a></p>
+    </div>
+
+  </div><!-- /content-column -->
+
+  <!-- RIGHT COLUMN: SIDEBAR -->
+  <aside class="sidebar" aria-label="Sidebar with popular articles and editor info">
+
+    <div class="sidebar-widget">
+      <h4>Most Popular</h4>
+      <div class="popular-item">
+        <div class="pop-title"><a href="#">The 2025 Kitchen: Functional Minimalism</a></div>
+        <div class="pop-meta">10 min read · Home Design</div>
+      </div>
+      <div class="popular-item">
+        <div class="pop-title"><a href="#">Layered Lighting: Room-by-Room Guide</a></div>
+        <div class="pop-meta">9 min read · Lighting</div>
+      </div>
+      <div class="popular-item">
+        <div class="pop-title"><a href="#">Why Lime Plaster Is Having a Moment</a></div>
+        <div class="pop-meta">7 min read · Materials</div>
+      </div>
+      <div class="popular-item">
+        <div class="pop-title"><a href="#">The 5 Most Common Floor Plan Mistakes</a></div>
+        <div class="pop-meta">11 min read · Space Planning</div>
+      </div>
+    </div>
+
+    <div class="sidebar-widget">
+      <h4>Editor's Pick</h4>
+      <div class="popular-item">
+        <div class="pop-title"><a href="#">Inside a Passive House That Proves Sustainability Can Be Beautiful</a></div>
+        <div class="pop-meta">14 min read · Modern Homes</div>
+      </div>
+      <div class="popular-item">
+        <div class="pop-title"><a href="#">The New Vernacular: Regional Materials in Architecture</a></div>
+        <div class="pop-meta">12 min read · Architecture</div>
+      </div>
+    </div>
+
+    <div class="sidebar-widget">
+      <h4>About the Editors</h4>
+      <div class="editor-info">
+        <h5>Maya Chen</h5>
+        <div class="role">Editor-in-Chief</div>
+        <p>Maya has spent 15 years writing about interiors and architecture. She believes good design should be accessible, not intimidating.</p>
+      </div>
+      <div class="editor-info" style="margin-top: 20px;">
+        <h5>James Okonkwo</h5>
+        <div class="role">Senior Architecture Editor</div>
+        <p>James is a trained architect and journalist. He covers residential design, sustainability, and the intersection of craft and technology.</p>
+      </div>
+    </div>
+
+    <div class="sidebar-widget">
+      <h4>Newsletter</h4>
+      <p style="font-size: 0.9rem; color: #3a3a3a;">Get our weekly digest of the best design writing—no spam, ever.</p>
+      <div style="margin-top: 16px;">
+        <input type="email" placeholder="Your email address" style="width: 100%; padding: 12px 16px; border: 1px solid var(--border); border-radius: 40px; font-family: var(--sans); margin-bottom: 12px; outline: none;" aria-label="Email for newsletter">
+        <button style="width: 100%; background: var(--accent); border: none; border-radius: 40px; padding: 12px; color: white; font-weight: 500; cursor: pointer;">Subscribe</button>
+      </div>
+    </div>
+
+  </aside>
+</main>
+
+<!-- ========== FAQ SECTION ========== -->
+<section class="faq-section">
+  <div class="container">
+    <h2 style="margin-bottom: 32px;">Frequently Asked Questions</h2>
+    <div class="faq-grid">
+      <div>
+        <div class="faq-item">
+          <div class="faq-question">What is the difference between interior design and interior architecture? <i class="fas fa-chevron-down"></i></div>
+          <div class="faq-answer">Interior architecture focuses on the structural and spatial aspects of a building’s interior—walls, lighting, and circulation. Interior design is more about finishes, furniture, and the sensory experience. Both overlap significantly in residential projects.</div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question">How do I choose the right lighting for a small room? <i class="fas fa-chevron-down"></i></div>
+          <div class="faq-answer">Use layered lighting: a ceiling fixture for general light, wall sconces or a floor lamp for ambient glow, and a small task light. Avoid a single bright overhead source, which flattens the space.</div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question">Are open floor plans still popular? <i class="fas fa-chevron-down"></i></div>
+          <div class="faq-answer">Yes, but with refinements. Many homeowners now prefer “broken plan” layouts—partially separated zones that offer acoustic and visual privacy while maintaining connection.</div>
+        </div>
+      </div>
+      <div>
+        <div class="faq-item">
+          <div class="faq-question">What is the most sustainable material for interiors? <i class="fas fa-chevron-down"></i></div>
+          <div class="faq-answer">There’s no single answer, but reclaimed wood, bamboo, cork, and lime plaster all have low embodied energy. Locally sourced materials are almost always a better choice than exotic imports.</div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question">How can I make a rental feel like home without major changes? <i class="fas fa-chevron-down"></i></div>
+          <div class="faq-answer">Focus on lighting (swap out harsh fixtures with plug-in sconces), removable wallpaper, large rugs, and freestanding furniture. These make a big impact with minimal damage.</div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question">What are the current trends in kitchen design? <i class="fas fa-chevron-down"></i></div>
+          <div class="faq-answer">Warm minimalism, handleless cabinets, integrated appliances, and a mix of natural stone and wood. Also, more focus on the kitchen as a social space rather than just a workspace.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== NEWSLETTER ========== -->
+<section class="newsletter">
+  <div class="container">
+    <div>
+      <h3>Design stories, delivered weekly.</h3>
+      <p>Join 12,000+ readers who get our carefully curated digest every Thursday.</p>
+    </div>
+    <form class="newsletter-form" onsubmit="event.preventDefault(); alert('Thank you for subscribing.');">
+      <input type="email" placeholder="Your email address" aria-label="Email address" required>
+      <button type="submit">Subscribe</button>
+    </form>
+  </div>
+</section>
+
+<!-- ========== FOOTER ========== -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="logo" style="font-size: 1.3rem; margin-bottom: 16px;">Envisioned <span>Living Spaces</span></div>
+        <p style="font-size: 0.9rem; max-width: 280px; color: #5a5a5a;">An independent journal about interior design, architecture, and the art of living well. Published since 2019.</p>
+      </div>
+      <div>
+        <h5>Explore</h5>
+        <ul>
+          <li><a href="#">Interior Design</a></li>
+          <li><a href="#">Architecture</a></li>
+          <li><a href="#">Materials</a></li>
+          <li><a href="#">Lighting</a></li>
+          <li><a href="#">Small Spaces</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>About</h5>
+        <ul>
+          <li><a href="#">Our Editors</a></li>
+          <li><a href="#">Editorial Policy</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Use</a></li>
+          <li><a href="#">Cookie Policy</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Contact</h5>
+        <ul>
+          <li><a href="#">hello@envisionedliving.com</a></li>
+          <li><a href="#">Write for us</a></li>
+          <li><a href="#">Advertise</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2025 Envisioned Living Spaces. All rights reserved.</span>
+      <span>Made with <i class="fas fa-heart" style="color: var(--accent);"></i> for thoughtful design.</span>
+    </div>
+  </div>
+</footer>
+
+<!-- ========== JAVASCRIPT ========== -->
+<script>
+  (function() {
+    // --- SEARCH TOGGLE ---
+    const searchToggle = document.getElementById('searchToggle');
+    const searchBar = document.getElementById('searchBar');
+    const searchInput = document.getElementById('searchInput');
+
+    searchToggle.addEventListener('click', () => {
+      searchBar.classList.toggle('active');
+      if (searchBar.classList.contains('active')) {
+        searchInput.focus();
+      }
+    });
+
+    // --- CATEGORY FILTER ---
+    const categoryButtons = document.querySelectorAll('#categoryList button');
+    const articles = document.querySelectorAll('#articleList .article-card, .featured-article');
+
+    function filterArticles(category) {
+      articles.forEach(article => {
+        const articleCat = article.dataset.category || 'all';
+        if (category === 'all' || articleCat === category) {
+          article.classList.remove('hidden');
+        } else {
+          article.classList.add('hidden');
+        }
+      });
+    }
+
+    categoryButtons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        categoryButtons.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        const cat = btn.dataset.category;
+        filterArticles(cat);
+      });
+    });
+
+    // --- SEARCH FUNCTIONALITY ---
+    searchInput.addEventListener('input', (e) => {
+      const query = e.target.value.toLowerCase().trim();
+      articles.forEach(article => {
+        const text = article.textContent.toLowerCase();
+        if (query === '' || text.includes(query)) {
+          article.classList.remove('hidden');
+        } else {
+          article.classList.add('hidden');
+        }
+      });
+      // reset category active state when searching
+      if (query !== '') {
+        categoryButtons.forEach(b => b.classList.remove('active'));
+      } else {
+        categoryButtons[0].classList.add('active'); // 'All'
+        filterArticles('all');
+      }
+    });
+
+    // --- FAQ ACCORDION ---
+    const faqItems = document.querySelectorAll('.faq-item');
+    faqItems.forEach(item => {
+      const question = item.querySelector('.faq-question');
+      question.addEventListener('click', () => {
+        const isActive = item.classList.contains('active');
+        // close others
+        faqItems.forEach(i => i.classList.remove('active'));
+        if (!isActive) {
+          item.classList.add('active');
+        }
+      });
+    });
+
+    // --- NEWSLETTER FORM (prevent default) ---
+    const newsletterForm = document.querySelector('.newsletter-form');
+    if (newsletterForm) {
+      newsletterForm.addEventListener('submit', (e) => {
+        e.preventDefault();
+        alert('Thank you for subscribing. Check your inbox for a confirmation.');
+      });
+    }
+
+    // --- SIDEBAR NEWSLETTER BUTTON ---
+    const sidebarBtn = document.querySelector('.sidebar-widget button');
+    if (sidebarBtn) {
+      sidebarBtn.addEventListener('click', () => {
+        const input = sidebarBtn.previousElementSibling;
+        if (input && input.value) {
+          alert('Thank you for subscribing.');
+          input.value = '';
+        } else {
+          alert('Please enter your email address.');
+        }
+      });
+    }
+
+    // --- INITIAL FILTER: ALL ---
+    filterArticles('all');
+
+    // --- DYNAMIC YEAR (optional) ---
+  })();
+</script>
+
+</body>
+</html>

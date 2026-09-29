@@ -1,0 +1,945 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Contact · Envisioned Living Spaces</title>
+  <meta name="description" content="Get in touch with the editorial team at Envisioned Living Spaces. Inquiries, submissions, and feedback welcome.">
+  <meta name="author" content="Envisioned Living Spaces">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://www.envisionedlivingspaces.com/contact">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Contact · Envisioned Living Spaces">
+  <meta property="og:description" content="Reach the editors, pitch a story, or send feedback.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.envisionedlivingspaces.com/contact">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=1200&h=630&fit=crop">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:site_name" content="Envisioned Living Spaces">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Contact · Envisioned Living Spaces">
+  <meta name="twitter:description" content="Reach the editors, pitch a story, or send feedback.">
+  <meta name="twitter:image" content="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=1200&h=630&fit=crop">
+
+  <!-- Schema.org ContactPage -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ContactPage",
+    "name": "Contact Envisioned Living Spaces",
+    "description": "Get in touch with the editorial team.",
+    "url": "https://www.envisionedlivingspaces.com/contact",
+    "mainEntity": {
+      "@type": "Organization",
+      "name": "Envisioned Living Spaces",
+      "email": "hello@envisionedliving.com",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "editorial",
+        "email": "hello@envisionedliving.com"
+      }
+    }
+  }
+  </script>
+
+  <!-- Fonts & Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+  <style>
+    /* ---------- RESET & BASE (same as main) ---------- */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    :root {
+      --ink: #1e1e1e;
+      --paper: #faf9f7;
+      --muted: #6b6b6b;
+      --border: #e3e1dc;
+      --accent: #b85c38;
+      --accent-soft: #f4ede9;
+      --serif: 'Playfair Display', Georgia, serif;
+      --sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      --radius: 12px;
+      --shadow-sm: 0 2px 8px rgba(0,0,0,0.02);
+      --shadow-md: 0 6px 20px rgba(0,0,0,0.04);
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background: var(--paper);
+      color: var(--ink);
+      font-family: var(--sans);
+      font-weight: 400;
+      line-height: 1.6;
+      font-size: 16px;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    img {
+      max-width: 100%;
+      display: block;
+      height: auto;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    /* ---------- TYPOGRAPHY ---------- */
+    h1, h2, h3, h4 {
+      font-family: var(--serif);
+      font-weight: 500;
+      line-height: 1.2;
+      letter-spacing: -0.01em;
+    }
+
+    h1 { font-size: 2.6rem; }
+    h2 { font-size: 2rem; margin: 2rem 0 1rem; }
+    h3 { font-size: 1.5rem; margin: 1.5rem 0 0.8rem; }
+    h4 { font-size: 1.2rem; margin: 1.2rem 0 0.6rem; }
+
+    p {
+      margin-bottom: 1.2rem;
+      color: #2a2a2a;
+    }
+
+    /* ---------- LAYOUT ---------- */
+    .container {
+      max-width: 1260px;
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+
+    /* ---------- HEADER (same as main) ---------- */
+    .site-header {
+      border-bottom: 1px solid var(--border);
+      background: var(--paper);
+      padding: 16px 0;
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      backdrop-filter: blur(8px);
+      background: rgba(250, 249, 247, 0.92);
+    }
+
+    .header-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .logo {
+      display: flex;
+      align-items: baseline;
+      gap: 8px;
+      font-family: var(--serif);
+      font-size: 1.6rem;
+      font-weight: 500;
+      letter-spacing: -0.02em;
+      color: var(--ink);
+    }
+
+    .logo span {
+      font-family: var(--sans);
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.2em;
+      color: var(--muted);
+      font-weight: 400;
+      margin-left: 6px;
+    }
+
+    .main-nav {
+      display: flex;
+      gap: 32px;
+      font-size: 0.9rem;
+      font-weight: 450;
+      color: #3a3a3a;
+      flex-wrap: wrap;
+    }
+
+    .main-nav a {
+      padding-bottom: 4px;
+      border-bottom: 1px solid transparent;
+      transition: border-color 0.2s;
+    }
+
+    .main-nav a:hover {
+      border-bottom-color: var(--accent);
+    }
+
+    .search-icon {
+      color: var(--ink);
+      font-size: 1rem;
+      cursor: pointer;
+      padding: 6px;
+    }
+
+    /* ---------- SEARCH BAR ---------- */
+    .search-bar {
+      display: none;
+      padding: 16px 0;
+      border-bottom: 1px solid var(--border);
+      background: var(--paper);
+    }
+
+    .search-bar.active {
+      display: block;
+    }
+
+    .search-bar input {
+      width: 100%;
+      padding: 14px 18px;
+      border: 1px solid var(--border);
+      border-radius: 40px;
+      font-family: var(--sans);
+      font-size: 1rem;
+      background: white;
+      outline: none;
+    }
+
+    .search-bar input:focus {
+      border-color: var(--accent);
+    }
+
+    /* ---------- CONTACT PAGE SPECIFIC ---------- */
+    .contact-hero {
+      margin: 48px 0 32px;
+    }
+
+    .contact-hero h1 {
+      font-size: 3rem;
+      margin-bottom: 16px;
+      letter-spacing: -0.02em;
+    }
+
+    .contact-hero .lede {
+      font-size: 1.2rem;
+      color: #3a3a3a;
+      max-width: 640px;
+      line-height: 1.7;
+    }
+
+    .contact-grid {
+      display: grid;
+      grid-template-columns: 1fr 380px;
+      gap: 56px;
+      margin: 48px 0 72px;
+    }
+
+    /* Contact Form */
+    .contact-form-wrap {
+      background: #ffffff;
+      padding: 40px 36px;
+      border-radius: var(--radius);
+      border: 1px solid var(--border);
+      box-shadow: var(--shadow-sm);
+    }
+
+    .contact-form-wrap h2 {
+      font-size: 1.8rem;
+      margin: 0 0 8px;
+    }
+
+    .contact-form-wrap .form-intro {
+      color: var(--muted);
+      font-size: 0.95rem;
+      margin-bottom: 32px;
+    }
+
+    .form-group {
+      margin-bottom: 24px;
+    }
+
+    .form-group label {
+      display: block;
+      font-size: 0.8rem;
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--muted);
+      margin-bottom: 8px;
+    }
+
+    .form-group input,
+    .form-group select,
+    .form-group textarea {
+      width: 100%;
+      padding: 14px 16px;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      font-family: var(--sans);
+      font-size: 0.95rem;
+      background: var(--paper);
+      outline: none;
+      transition: border-color 0.2s, box-shadow 0.2s;
+    }
+
+    .form-group input:focus,
+    .form-group select:focus,
+    .form-group textarea:focus {
+      border-color: var(--accent);
+      box-shadow: 0 0 0 3px rgba(184, 92, 56, 0.08);
+    }
+
+    .form-group textarea {
+      min-height: 160px;
+      resize: vertical;
+    }
+
+    .form-group select {
+      appearance: none;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%236b6b6b' d='M6 8L1 3h10z'/%3E%3C/svg%3E");
+      background-repeat: no-repeat;
+      background-position: right 16px center;
+      cursor: pointer;
+    }
+
+    .form-submit {
+      background: var(--accent);
+      color: #fff;
+      border: none;
+      border-radius: 40px;
+      padding: 16px 36px;
+      font-family: var(--sans);
+      font-size: 0.95rem;
+      font-weight: 500;
+      cursor: pointer;
+      transition: background 0.2s;
+      width: 100%;
+      margin-top: 8px;
+    }
+
+    .form-submit:hover {
+      background: #9e4d2f;
+    }
+
+    .form-note {
+      font-size: 0.8rem;
+      color: var(--muted);
+      margin-top: 16px;
+      text-align: center;
+    }
+
+    /* Sidebar Info */
+    .contact-info-wrap {
+      display: flex;
+      flex-direction: column;
+      gap: 32px;
+    }
+
+    .contact-info-box {
+      background: #f0eeeb;
+      padding: 32px 28px;
+      border-radius: var(--radius);
+    }
+
+    .contact-info-box h3 {
+      font-size: 1.2rem;
+      margin: 0 0 8px;
+    }
+
+    .contact-info-box p {
+      font-size: 0.9rem;
+      color: #3a3a3a;
+      margin-bottom: 20px;
+    }
+
+    .contact-detail {
+      display: flex;
+      align-items: flex-start;
+      gap: 14px;
+      margin-bottom: 18px;
+    }
+
+    .contact-detail:last-child {
+      margin-bottom: 0;
+    }
+
+    .contact-detail i {
+      font-size: 1rem;
+      color: var(--accent);
+      width: 20px;
+      margin-top: 3px;
+    }
+
+    .contact-detail .detail-label {
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--muted);
+      font-weight: 600;
+      margin-bottom: 2px;
+    }
+
+    .contact-detail .detail-value {
+      font-size: 0.95rem;
+      color: var(--ink);
+    }
+
+    .contact-detail .detail-value a:hover {
+      color: var(--accent);
+    }
+
+    /* Editor cards (reuse style) */
+    .editor-card {
+      background: #ffffff;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 24px 22px;
+      margin-bottom: 16px;
+    }
+
+    .editor-card h4 {
+      font-family: var(--serif);
+      font-size: 1.15rem;
+      margin: 0 0 2px;
+    }
+
+    .editor-card .role {
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--muted);
+      margin-bottom: 10px;
+    }
+
+    .editor-card p {
+      font-size: 0.9rem;
+      color: #3a3a3a;
+      margin-bottom: 0;
+    }
+
+    /* FAQ (same as main) */
+    .faq-section {
+      background: #ffffff;
+      border-top: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+      padding: 64px 0;
+      margin: 72px 0;
+    }
+
+    .faq-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 48px;
+    }
+
+    .faq-item {
+      border-bottom: 1px solid var(--border);
+      padding: 20px 0;
+      cursor: pointer;
+    }
+
+    .faq-item:last-child {
+      border-bottom: none;
+    }
+
+    .faq-question {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-weight: 500;
+      font-family: var(--serif);
+      font-size: 1.2rem;
+    }
+
+    .faq-question i {
+      font-size: 0.9rem;
+      color: var(--muted);
+      transition: transform 0.2s;
+    }
+
+    .faq-item.active .faq-question i {
+      transform: rotate(180deg);
+    }
+
+    .faq-answer {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.3s ease;
+      font-size: 0.95rem;
+      color: #3a3a3a;
+      padding-right: 24px;
+    }
+
+    .faq-item.active .faq-answer {
+      max-height: 300px;
+      padding-top: 16px;
+    }
+
+    /* Newsletter (same as main) */
+    .newsletter {
+      background: #1e1e1e;
+      color: #f0eeeb;
+      padding: 64px 0;
+      margin: 48px 0 0;
+    }
+
+    .newsletter .container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 32px;
+    }
+
+    .newsletter h3 {
+      font-family: var(--serif);
+      font-size: 1.8rem;
+      margin: 0 0 6px;
+      color: #fff;
+    }
+
+    .newsletter p {
+      color: #b0a9a3;
+      margin: 0;
+      font-size: 0.95rem;
+    }
+
+    .newsletter-form {
+      display: flex;
+      gap: 12px;
+    }
+
+    .newsletter-form input {
+      padding: 14px 20px;
+      border-radius: 40px;
+      border: 1px solid #444;
+      background: transparent;
+      color: #fff;
+      font-family: var(--sans);
+      font-size: 0.95rem;
+      width: 280px;
+      outline: none;
+    }
+
+    .newsletter-form input::placeholder {
+      color: #7a7a7a;
+    }
+
+    .newsletter-form button {
+      background: var(--accent);
+      border: none;
+      border-radius: 40px;
+      padding: 0 28px;
+      font-weight: 500;
+      color: #fff;
+      font-family: var(--sans);
+      font-size: 0.95rem;
+      cursor: pointer;
+      transition: background 0.2s;
+      white-space: nowrap;
+    }
+
+    .newsletter-form button:hover {
+      background: #9e4d2f;
+    }
+
+    /* Footer (same as main) */
+    .site-footer {
+      background: #f0eeeb;
+      padding: 56px 0 32px;
+      font-size: 0.85rem;
+      color: #3a3a3a;
+      border-top: 1px solid var(--border);
+    }
+
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr 1fr;
+      gap: 48px;
+      margin-bottom: 48px;
+    }
+
+    .footer-grid h5 {
+      font-family: var(--sans);
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: var(--muted);
+      margin-bottom: 20px;
+      font-weight: 600;
+    }
+
+    .footer-grid ul {
+      list-style: none;
+    }
+
+    .footer-grid li {
+      margin-bottom: 10px;
+    }
+
+    .footer-grid a:hover {
+      color: var(--accent);
+    }
+
+    .footer-bottom {
+      border-top: 1px solid var(--border);
+      padding-top: 24px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 16px;
+      font-size: 0.8rem;
+      color: var(--muted);
+    }
+
+    /* ---------- RESPONSIVE ---------- */
+    @media (max-width: 1024px) {
+      .contact-grid {
+        grid-template-columns: 1fr;
+        gap: 40px;
+      }
+      .faq-grid {
+        grid-template-columns: 1fr;
+        gap: 0;
+      }
+      .footer-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    @media (max-width: 768px) {
+      h1 { font-size: 2rem; }
+      h2 { font-size: 1.7rem; }
+      .header-inner {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .main-nav {
+        gap: 20px;
+        font-size: 0.8rem;
+      }
+      .contact-hero h1 {
+        font-size: 2.2rem;
+      }
+      .contact-form-wrap {
+        padding: 28px 22px;
+      }
+      .newsletter .container {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .newsletter-form {
+        width: 100%;
+        flex-direction: column;
+      }
+      .newsletter-form input {
+        width: 100%;
+      }
+      .newsletter-form button {
+        padding: 14px 28px;
+      }
+      .footer-grid {
+        grid-template-columns: 1fr;
+        gap: 32px;
+      }
+      .contact-grid {
+        margin: 32px 0 48px;
+      }
+    }
+
+    .hidden { display: none; }
+  </style>
+</head>
+<body>
+
+<!-- ========== HEADER ========== -->
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="index.html" class="logo">Envisioned <span>Living Spaces</span></a>
+    <nav class="main-nav" aria-label="Main navigation">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="terms.html">Terms Of Privacy</a></li>
+      <li><a href="privacy.html">Privacy Policy</a></li>
+      <li><a href="cookies.html">Cookies Policy</a></li>
+      <li><a href="disclaimer.html">Disclaimer</a></li>
+      <li><a href="categories.html">Categories</a></li>
+    </nav>
+    <div class="search-icon" id="searchToggle" aria-label="Search articles">
+      <i class="fas fa-search"></i>
+    </div>
+  </div>
+  <div class="container search-bar" id="searchBar">
+    <input type="text" id="searchInput" placeholder="Search articles, topics, or keywords…" aria-label="Search articles">
+  </div>
+</header>
+
+<!-- ========== MAIN CONTACT CONTENT ========== -->
+<main class="container">
+
+  <!-- HERO -->
+  <section class="contact-hero">
+    <h1>Get in touch</h1>
+    <p class="lede">Whether you have a story tip, a question about an article, or want to work with us — we read every message. Expect a reply within two business days.</p>
+  </section>
+
+  <!-- CONTACT GRID -->
+  <div class="contact-grid">
+
+    <!-- LEFT: FORM -->
+    <div class="contact-form-wrap">
+      <h2>Send a message</h2>
+      <p class="form-intro">Fill out the form and we’ll route your note to the right editor.</p>
+
+      <form id="contactForm" onsubmit="event.preventDefault(); handleContactSubmit();">
+        <div class="form-group">
+          <label for="name">Your name</label>
+          <input type="text" id="name" name="name" placeholder="e.g. Alex Rivera" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email address</label>
+          <input type="email" id="email" name="email" placeholder="you@example.com" required>
+        </div>
+        <div class="form-group">
+          <label for="subject">Subject</label>
+          <select id="subject" name="subject" required>
+            <option value="" disabled selected>Choose a topic…</option>
+            <option value="editorial">Editorial inquiry / story tip</option>
+            <option value="submission">Pitch a story or submit work</option>
+            <option value="feedback">Feedback on an article</option>
+            <option value="advertising">Advertising & partnerships</option>
+            <option value="other">Something else</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" placeholder="Tell us what’s on your mind…" required></textarea>
+        </div>
+        <button type="submit" class="form-submit">Send message <i class="fas fa-arrow-right" style="margin-left: 6px; font-size: 0.8rem;"></i></button>
+        <p class="form-note">We’ll never share your details. See our <a href="privacy.html" style="color: var(--accent); text-decoration: underline;">privacy policy</a>.</p>
+      </form>
+    </div>
+
+    <!-- RIGHT: INFO -->
+    <aside class="contact-info-wrap">
+
+      <div class="contact-info-box">
+        <h3>Editorial office</h3>
+        <p>For general inquiries, pitches, and feedback.</p>
+        <div class="contact-detail">
+          <i class="fas fa-envelope"></i>
+          <div>
+            <div class="detail-label">Email</div>
+            <div class="detail-value"><a href="mailto:hello@envisionedliving.com">hello@envisionedliving.com</a></div>
+          </div>
+        </div>
+        <div class="contact-detail">
+          <i class="fas fa-map-pin"></i>
+          <div>
+            <div class="detail-label">Mailing address</div>
+            <div class="detail-value">1201 Design District, Suite 4B<br>Portland, OR 97209</div>
+          </div>
+        </div>
+        <div class="contact-detail">
+          <i class="fas fa-clock"></i>
+          <div>
+            <div class="detail-label">Response time</div>
+            <div class="detail-value">Within 2 business days</div>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <h3 style="font-size: 1.1rem; margin: 0 0 16px; font-family: var(--sans); text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); font-weight: 600;">Direct contacts</h3>
+
+        <div class="editor-card">
+          <h4>Maya Chen</h4>
+          <div class="role">Editor-in-Chief</div>
+          <p>Editorial direction, features, and long-form stories. <a href="mailto:maya@envisionedliving.com" style="color: var(--accent); text-decoration: underline;">maya@envisionedliving.com</a></p>
+        </div>
+
+        <div class="editor-card">
+          <h4>James Okonkwo</h4>
+          <div class="role">Senior Architecture Editor</div>
+          <p>Architecture, sustainability, and technical case studies. <a href="mailto:james@envisionedliving.com" style="color: var(--accent); text-decoration: underline;">james@envisionedliving.com</a></p>
+        </div>
+
+        <div class="editor-card">
+          <h4>Elena Rossi</h4>
+          <div class="role">Interiors Editor</div>
+          <p>Interior design, materials, and home tours. <a href="mailto:elena@envisionedliving.com" style="color: var(--accent); text-decoration: underline;">elena@envisionedliving.com</a></p>
+        </div>
+      </div>
+
+    </aside>
+
+  </div><!-- /contact-grid -->
+
+</main>
+
+<!-- ========== FAQ SECTION ========== -->
+<section class="faq-section">
+  <div class="container">
+    <h2 style="margin-bottom: 32px;">Frequently Asked Questions</h2>
+    <div class="faq-grid">
+      <div>
+        <div class="faq-item">
+          <div class="faq-question">How quickly do you respond to messages? <i class="fas fa-chevron-down"></i></div>
+          <div class="faq-answer">We aim to reply to every message within two business days. For time-sensitive press inquiries, please mark your subject line “URGENT” and we’ll prioritize it.</div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question">Can I submit a guest article or pitch? <i class="fas fa-chevron-down"></i></div>
+          <div class="faq-answer">Absolutely. We welcome pitches from architects, designers, and writers. Please send a short summary (150–200 words) along with your credentials and a link to previous work. Use the subject “Pitch: [topic]”.</div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question">Do you accept advertising or sponsored content? <i class="fas fa-chevron-down"></i></div>
+          <div class="faq-answer">We work with a limited number of partners whose values align with our editorial mission. All sponsored content is clearly labeled. Reach out to <a href="mailto:partners@envisionedliving.com" style="color: var(--accent);">partners@envisionedliving.com</a> for our media kit.</div>
+        </div>
+      </div>
+      <div>
+        <div class="faq-item">
+          <div class="faq-question">I’m a homeowner — can you feature my project? <i class="fas fa-chevron-down"></i></div>
+          <div class="faq-answer">We love featuring thoughtful residential projects. Send a few high-resolution photos, a brief description, and the architect or designer’s name. We’ll follow up if it’s a good fit.</div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question">How do I report an error or correction? <i class="fas fa-chevron-down"></i></div>
+          <div class="faq-answer">Accuracy matters. Please email <a href="mailto:corrections@envisionedliving.com" style="color: var(--accent);">corrections@envisionedliving.com</a> with the article title, URL, and the specific correction. We’ll review and update promptly.</div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question">Can I republish your content? <i class="fas fa-chevron-down"></i></div>
+          <div class="faq-answer">You may quote up to two paragraphs with a link back to the original article. For full syndication or translation requests, please contact us directly.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== NEWSLETTER ========== -->
+<section class="newsletter">
+  <div class="container">
+    <div>
+      <h3>Design stories, delivered weekly.</h3>
+      <p>Join 12,000+ readers who get our carefully curated digest every Thursday.</p>
+    </div>
+    <form class="newsletter-form" onsubmit="event.preventDefault(); alert('Thank you for subscribing.');">
+      <input type="email" placeholder="Your email address" aria-label="Email address" required>
+      <button type="submit">Subscribe</button>
+    </form>
+  </div>
+</section>
+
+<!-- ========== FOOTER ========== -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="logo" style="font-size: 1.3rem; margin-bottom: 16px;">Envisioned <span>Living Spaces</span></div>
+        <p style="font-size: 0.9rem; max-width: 280px; color: #5a5a5a;">An independent journal about interior design, architecture, and the art of living well. Published since 2019.</p>
+      </div>
+      <div>
+        <h5>Explore</h5>
+        <ul>
+          <li><a href="#">Interior Design</a></li>
+          <li><a href="#">Architecture</a></li>
+          <li><a href="#">Materials</a></li>
+          <li><a href="#">Lighting</a></li>
+          <li><a href="#">Small Spaces</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>About</h5>
+        <ul>
+          <li><a href="#">Our Editors</a></li>
+          <li><a href="#">Editorial Policy</a></li>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+          <li><a href="terms.html">Terms of Use</a></li>
+          <li><a href="cookies.html">Cookie Policy</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Contact</h5>
+        <ul>
+          <li><a href="mailto:hello@envisionedliving.com">hello@envisionedliving.com</a></li>
+          <li><a href="#">Write for us</a></li>
+          <li><a href="#">Advertise</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2025 Envisioned Living Spaces. All rights reserved.</span>
+      <span>Made with <i class="fas fa-heart" style="color: var(--accent);"></i> for thoughtful design.</span>
+    </div>
+  </div>
+</footer>
+
+<!-- ========== JAVASCRIPT ========== -->
+<script>
+  (function() {
+    // --- SEARCH TOGGLE ---
+    const searchToggle = document.getElementById('searchToggle');
+    const searchBar = document.getElementById('searchBar');
+    const searchInput = document.getElementById('searchInput');
+
+    searchToggle.addEventListener('click', () => {
+      searchBar.classList.toggle('active');
+      if (searchBar.classList.contains('active')) {
+        searchInput.focus();
+      }
+    });
+
+    // --- FAQ ACCORDION ---
+    const faqItems = document.querySelectorAll('.faq-item');
+    faqItems.forEach(item => {
+      const question = item.querySelector('.faq-question');
+      question.addEventListener('click', () => {
+        const isActive = item.classList.contains('active');
+        faqItems.forEach(i => i.classList.remove('active'));
+        if (!isActive) {
+          item.classList.add('active');
+        }
+      });
+    });
+
+    // --- NEWSLETTER FORM (prevent default) ---
+    const newsletterForm = document.querySelector('.newsletter-form');
+    if (newsletterForm) {
+      newsletterForm.addEventListener('submit', (e) => {
+        e.preventDefault();
+        alert('Thank you for subscribing. Check your inbox for a confirmation.');
+      });
+    }
+
+    // --- CONTACT FORM SUBMIT (demo) ---
+    window.handleContactSubmit = function() {
+      const name = document.getElementById('name').value.trim();
+      const email = document.getElementById('email').value.trim();
+      const subject = document.getElementById('subject').value;
+      const message = document.getElementById('message').value.trim();
+
+      if (!name || !email || !subject || !message) {
+        alert('Please fill out all fields before sending.');
+        return;
+      }
+
+      // Simulate sending
+      alert(`Thank you, ${name}. Your message about "${subject}" has been sent. We’ll reply to ${email} within two business days.`);
+
+      // Reset form
+      document.getElementById('contactForm').reset();
+    };
+
+  })();
+</script>
+
+</body>
+</html>

@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>About · Envisioned Living Spaces</title>
+  <meta name="description" content="Learn about Envisioned Living Spaces — an independent editorial journal covering interior design, architecture, and modern living.">
+  <meta name="author" content="Envisioned Living Spaces">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://www.envisionedlivingspaces.com/about.html">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="About · Envisioned Living Spaces">
+  <meta property="og:description" content="Independent editorial on interior design, architecture, materials, and modern homes.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.envisionedlivingspaces.com/about.html">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=1200&h=630&fit=crop">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:site_name" content="Envisioned Living Spaces">
+
+  <!-- Fonts & Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+  <style>
+    /* ---------- RESET & BASE ---------- */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    :root {
+      --ink: #1e1e1e;
+      --paper: #faf9f7;
+      --muted: #6b6b6b;
+      --border: #e3e1dc;
+      --accent: #b85c38;
+      --accent-soft: #f4ede9;
+      --serif: 'Playfair Display', Georgia, serif;
+      --sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      --radius: 12px;
+      --shadow-sm: 0 2px 8px rgba(0,0,0,0.02);
+      --shadow-md: 0 6px 20px rgba(0,0,0,0.04);
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background: var(--paper);
+      color: var(--ink);
+      font-family: var(--sans);
+      font-weight: 400;
+      line-height: 1.6;
+      font-size: 16px;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    img {
+      max-width: 100%;
+      display: block;
+      height: auto;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    /* ---------- TYPOGRAPHY ---------- */
+    h1, h2, h3, h4 {
+      font-family: var(--serif);
+      font-weight: 500;
+      line-height: 1.2;
+      letter-spacing: -0.01em;
+    }
+
+    h1 { font-size: 2.6rem; }
+    h2 { font-size: 2rem; margin: 2rem 0 1rem; }
+    h3 { font-size: 1.5rem; margin: 1.5rem 0 0.8rem; }
+    h4 { font-size: 1.2rem; margin: 1.2rem 0 0.6rem; }
+
+    p {
+      margin-bottom: 1.2rem;
+      color: #2a2a2a;
+    }
+
+    /* ---------- LAYOUT ---------- */
+    .container {
+      max-width: 1260px;
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+
+    /* ---------- HEADER ---------- */
+    .site-header {
+      border-bottom: 1px solid var(--border);
+      background: var(--paper);
+      padding: 16px 0;
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      backdrop-filter: blur(8px);
+      background: rgba(250, 249, 247, 0.92);
+    }
+
+    .header-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .logo {
+      display: flex;
+      align-items: baseline;
+      gap: 8px;
+      font-family: var(--serif);
+      font-size: 1.6rem;
+      font-weight: 500;
+      letter-spacing: -0.02em;
+      color: var(--ink);
+    }
+
+    .logo span {
+      font-family: var(--sans);
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.2em;
+      color: var(--muted);
+      font-weight: 400;
+      margin-left: 6px;
+    }
+
+    .main-nav {
+      display: flex;
+      gap: 32px;
+      font-size: 0.9rem;
+      font-weight: 450;
+      color: #3a3a3a;
+      flex-wrap: wrap;
+    }
+
+    .main-nav a {
+      padding-bottom: 4px;
+      border-bottom: 1px solid transparent;
+      transition: border-color 0.2s;
+    }
+
+    .main-nav a:hover {
+      border-bottom-color: var(--accent);
+    }
+
+    .search-icon {
+      color: var(--ink);
+      font-size: 1rem;
+      cursor: pointer;
+      padding: 6px;
+    }
+
+    /* ---------- PAGE HEADER ---------- */
+    .page-header {
+      padding: 56px 0 24px;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 48px;
+    }
+
+    .page-header h1 {
+      font-size: 2.8rem;
+      margin-bottom: 12px;
+      max-width: 800px;
+    }
+
+    .page-header .subhead {
+      font-size: 1.15rem;
+      color: var(--muted);
+      max-width: 680px;
+      font-weight: 300;
+    }
+
+    /* ---------- ABOUT GRID ---------- */
+    .about-grid {
+      display: grid;
+      grid-template-columns: 1fr 320px;
+      gap: 56px;
+      margin: 40px 0 72px;
+    }
+
+    .about-content h2 {
+      font-size: 1.8rem;
+      margin: 2rem 0 1rem;
+    }
+
+    .about-content h2:first-of-type {
+      margin-top: 0;
+    }
+
+    .about-content p {
+      font-size: 1.05rem;
+      max-width: 720px;
+    }
+
+    .about-content blockquote {
+      border-left: 4px solid var(--accent);
+      padding-left: 24px;
+      margin: 32px 0;
+      font-family: var(--serif);
+      font-size: 1.25rem;
+      color: #2a2a2a;
+      font-style: italic;
+    }
+
+    .about-content ul {
+      margin: 0 0 24px 20px;
+      max-width: 720px;
+    }
+
+    .about-content ul li {
+      margin-bottom: 8px;
+      color: #2a2a2a;
+    }
+
+    .about-image {
+      width: 100%;
+      height: 340px;
+      object-fit: cover;
+      border-radius: var(--radius);
+      margin: 32px 0 16px;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .image-caption {
+      font-size: 0.85rem;
+      color: var(--muted);
+      margin-bottom: 32px;
+      font-style: italic;
+    }
+
+    /* ---------- STATS ROW ---------- */
+    .stats-row {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 32px;
+      margin: 48px 0;
+      padding: 40px 0;
+      border-top: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .stat-item .stat-number {
+      font-family: var(--serif);
+      font-size: 2.4rem;
+      font-weight: 500;
+      color: var(--accent);
+      line-height: 1.1;
+      margin-bottom: 6px;
+    }
+
+    .stat-item .stat-label {
+      font-size: 0.85rem;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      font-weight: 500;
+    }
+
+    /* ---------- SIDEBAR ---------- */
+    .sidebar {
+      font-size: 0.9rem;
+    }
+
+    .sidebar-widget {
+      margin-bottom: 48px;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 32px;
+    }
+
+    .sidebar-widget:last-child {
+      border-bottom: none;
+    }
+
+    .sidebar-widget h4 {
+      font-family: var(--sans);
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: var(--muted);
+      margin-bottom: 24px;
+      font-weight: 600;
+    }
+
+    .editor-info {
+      background: #f0eeeb;
+      padding: 24px 20px;
+      border-radius: var(--radius);
+      margin-bottom: 20px;
+    }
+
+    .editor-info h5 {
+      font-family: var(--serif);
+      font-size: 1.2rem;
+      margin-bottom: 4px;
+    }
+
+    .editor-info .role {
+      font-size: 0.75rem;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      margin-bottom: 12px;
+    }
+
+    .editor-info p {
+      font-size: 0.9rem;
+      margin-bottom: 0;
+    }
+
+    .sidebar-widget p {
+      font-size: 0.9rem;
+      color: #3a3a3a;
+    }
+
+    /* ---------- VALUES GRID ---------- */
+    .values-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 32px;
+      margin: 48px 0;
+    }
+
+    .value-card {
+      background: #ffffff;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 32px 28px;
+    }
+
+    .value-card i {
+      font-size: 1.8rem;
+      color: var(--accent);
+      margin-bottom: 16px;
+      display: block;
+    }
+
+    .value-card h3 {
+      font-size: 1.3rem;
+      margin: 0 0 10px;
+    }
+
+    .value-card p {
+      font-size: 0.95rem;
+      margin-bottom: 0;
+      color: #3a3a3a;
+    }
+
+    /* ---------- NEWSLETTER ---------- */
+    .newsletter {
+      background: #1e1e1e;
+      color: #f0eeeb;
+      padding: 64px 0;
+      margin: 48px 0 0;
+    }
+
+    .newsletter .container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 32px;
+    }
+
+    .newsletter h3 {
+      font-family: var(--serif);
+      font-size: 1.8rem;
+      margin: 0 0 6px;
+      color: #fff;
+    }
+
+    .newsletter p {
+      color: #b0a9a3;
+      margin: 0;
+      font-size: 0.95rem;
+    }
+
+    .newsletter-form {
+      display: flex;
+      gap: 12px;
+    }
+
+    .newsletter-form input {
+      padding: 14px 20px;
+      border-radius: 40px;
+      border: 1px solid #444;
+      background: transparent;
+      color: #fff;
+      font-family: var(--sans);
+      font-size: 0.95rem;
+      width: 280px;
+      outline: none;
+    }
+
+    .newsletter-form input::placeholder {
+      color: #7a7a7a;
+    }
+
+    .newsletter-form button {
+      background: var(--accent);
+      border: none;
+      border-radius: 40px;
+      padding: 0 28px;
+      font-weight: 500;
+      color: #fff;
+      font-family: var(--sans);
+      font-size: 0.95rem;
+      cursor: pointer;
+      transition: background 0.2s;
+      white-space: nowrap;
+    }
+
+    .newsletter-form button:hover {
+      background: #9e4d2f;
+    }
+
+    /* ---------- FOOTER ---------- */
+    .site-footer {
+      background: #f0eeeb;
+      padding: 56px 0 32px;
+      font-size: 0.85rem;
+      color: #3a3a3a;
+      border-top: 1px solid var(--border);
+    }
+
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr 1fr;
+      gap: 48px;
+      margin-bottom: 48px;
+    }
+
+    .footer-grid h5 {
+      font-family: var(--sans);
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: var(--muted);
+      margin-bottom: 20px;
+      font-weight: 600;
+    }
+
+    .footer-grid ul {
+      list-style: none;
+    }
+
+    .footer-grid li {
+      margin-bottom: 10px;
+    }
+
+    .footer-grid a:hover {
+      color: var(--accent);
+    }
+
+    .footer-bottom {
+      border-top: 1px solid var(--border);
+      padding-top: 24px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 16px;
+      font-size: 0.8rem;
+      color: var(--muted);
+    }
+
+    /* ---------- RESPONSIVE ---------- */
+    @media (max-width: 1024px) {
+      .about-grid {
+        grid-template-columns: 1fr;
+        gap: 40px;
+      }
+      .footer-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+      .values-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media (max-width: 768px) {
+      h1 { font-size: 2rem; }
+      .page-header h1 { font-size: 2rem; }
+      .page-header .subhead { font-size: 1rem; }
+      .header-inner {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .main-nav {
+        gap: 20px;
+        font-size: 0.8rem;
+      }
+      .newsletter .container {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .newsletter-form {
+        width: 100%;
+        flex-direction: column;
+      }
+      .newsletter-form input {
+        width: 100%;
+      }
+      .newsletter-form button {
+        padding: 14px 28px;
+      }
+      .footer-grid {
+        grid-template-columns: 1fr;
+        gap: 32px;
+      }
+      .stats-row {
+        grid-template-columns: 1fr;
+        gap: 24px;
+      }
+      .about-image {
+        height: 220px;
+      }
+    }
+
+    .hidden { display: none; }
+  </style>
+</head>
+<body>
+
+<!-- ========== HEADER ========== -->
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="index.html" class="logo">Envisioned <span>Living Spaces</span></a>
+    <nav class="main-nav" aria-label="Main navigation">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="terms.html">Terms Of Privacy</a></li>
+      <li><a href="privacy.html">Privacy Policy</a></li>
+      <li><a href="cookies.html">Cookies Policy</a></li>
+      <li><a href="disclaimer.html">Disclaimer</a></li>
+      <li><a href="categories.html">Categories</a></li>
+    </nav>
+    <div class="search-icon" id="searchToggle" aria-label="Search articles">
+      <i class="fas fa-search"></i>
+    </div>
+  </div>
+</header>
+
+<!-- ========== PAGE HEADER ========== -->
+<div class="container page-header">
+  <h1>About Envisioned Living Spaces</h1>
+  <p class="subhead">An independent editorial journal exploring the intersection of interior design, architecture, and the art of living well.</p>
+</div>
+
+<!-- ========== MAIN CONTENT ========== -->
+<main class="container about-grid">
+
+  <!-- LEFT COLUMN: ABOUT CONTENT -->
+  <div class="about-content">
+
+    <img class="about-image" src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=1200&h=600&fit=crop" alt="Sunlit interior with minimalist furniture and natural materials">
+
+    <h2>Our Story</h2>
+    <p>Envisioned Living Spaces began in 2019 as a small newsletter shared among a handful of architects, designers, and curious homeowners. What united them was a shared frustration: too much design writing felt either shallow or needlessly academic. There was room for something in between—rigorous, readable, and genuinely useful.</p>
+    <p>Today, we publish long-form articles, case studies, and practical guides for people who care about how spaces are made. Our readers include design professionals, students, and homeowners who want to understand the "why" behind the "what."</p>
+
+    <blockquote>“Good design writing should leave you seeing your own home differently—not just wishing you had someone else's.”</blockquote>
+
+    <h2>What We Cover</h2>
+    <p>Our editorial focus spans the full spectrum of residential design:</p>
+    <ul>
+      <li><strong>Interior Design</strong> — color, texture, furniture, and the sensory experience of rooms.</li>
+      <li><strong>Architecture</strong> — residential building, renovations, and the relationship between structure and site.</li>
+      <li><strong>Materials</strong> — from lime plaster to reclaimed timber, and how material choices shape atmosphere.</li>
+      <li><strong>Lighting</strong> — layered lighting strategies, daylighting, and the psychology of light.</li>
+      <li><strong>Space Planning</strong> — circulation, proportion, and the quiet logic of well-planned rooms.</li>
+      <li><strong>Modern Homes</strong> — case studies of sustainable, passive, and thoughtfully designed houses.</li>
+    </ul>
+
+    <h2>Our Approach</h2>
+    <p>We believe that design writing should be accessible without being simplistic. Every article is grounded in research—interviews with architects, visits to completed projects, and a close reading of the materials and methods involved. We avoid trend-chasing for its own sake, and we never publish sponsored content disguised as editorial.</p>
+    <p>We are particularly interested in the quiet, enduring principles of good design: proportion, light, balance, and material honesty. These ideas outlast any trend, and they are central to what we write.</p>
+
+    <img class="about-image" src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1200&h=600&fit=crop" alt="Modern home exterior with timber cladding and large windows">
+    <div class="image-caption">A passive house project featured in our case study series.</div>
+
+    <h2>Editorial Independence</h2>
+    <p>Envisioned Living Spaces is independently owned and operated. We do not accept payment for coverage, and our editorial decisions are made solely by our editors. When we recommend a product or material, it is because we believe it is genuinely worth considering—not because of any commercial relationship.</p>
+    <p>Our small team is based across Europe and North America, which gives us a broad perspective on regional design traditions and emerging practices.</p>
+
+    <!-- STATS -->
+    <div class="stats-row">
+      <div class="stat-item">
+        <div class="stat-number">200+</div>
+        <div class="stat-label">Articles published</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number">12k</div>
+        <div class="stat-label">Newsletter readers</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number">6</div>
+        <div class="stat-label">Years independent</div>
+      </div>
+    </div>
+
+    <!-- VALUES -->
+    <h2>What Guides Us</h2>
+    <div class="values-grid">
+      <div class="value-card">
+        <i class="fas fa-feather-alt"></i>
+        <h3>Clarity</h3>
+        <p>We write for people, not for search engines. Every article aims to be clear, useful, and a pleasure to read.</p>
+      </div>
+      <div class="value-card">
+        <i class="fas fa-balance-scale"></i>
+        <h3>Independence</h3>
+        <p>No sponsored content, no pay-for-play. Our recommendations are based on research and experience alone.</p>
+      </div>
+      <div class="value-card">
+        <i class="fas fa-leaf"></i>
+        <h3>Sustainability</h3>
+        <p>We pay close attention to material sourcing, energy performance, and the long-term impact of design decisions.</p>
+      </div>
+      <div class="value-card">
+        <i class="fas fa-ruler-combined"></i>
+        <h3>Craft</h3>
+        <p>We admire good detailing—the junction of materials, the quality of light, the care taken in construction.</p>
+      </div>
+    </div>
+
+    <h2>Work With Us</h2>
+    <p>We are always interested in hearing from architects, designers, and makers with projects worth sharing. If you have a completed home, a material innovation, or a perspective that would enrich our pages, please <a href="contact.html" style="color: var(--accent); border-bottom: 1px solid var(--accent);">get in touch</a>.</p>
+    <p>For advertising and partnership enquiries, please contact us separately—we keep editorial and commercial conversations entirely distinct.</p>
+
+  </div><!-- /about-content -->
+
+  <!-- RIGHT COLUMN: SIDEBAR -->
+  <aside class="sidebar" aria-label="Sidebar with editor info and newsletter">
+
+    <div class="sidebar-widget">
+      <h4>Our Editors</h4>
+      <div class="editor-info">
+        <h5>Maya Chen</h5>
+        <div class="role">Editor-in-Chief</div>
+        <p>Maya has spent 15 years writing about interiors and architecture. She believes good design should be accessible, not intimidating.</p>
+      </div>
+      <div class="editor-info">
+        <h5>James Okonkwo</h5>
+        <div class="role">Senior Architecture Editor</div>
+        <p>James is a trained architect and journalist. He covers residential design, sustainability, and the intersection of craft and technology.</p>
+      </div>
+      <div class="editor-info">
+        <h5>Elena Rossi</h5>
+        <div class="role">Contributing Editor</div>
+        <p>Elena writes about materials, color, and the sensory dimensions of interior space. She is based in Milan.</p>
+      </div>
+    </div>
+
+    <div class="sidebar-widget">
+      <h4>Editorial Policy</h4>
+      <p>We are committed to accuracy, transparency, and independence. Read our full <a href="#" style="color: var(--accent); border-bottom: 1px solid var(--accent);">editorial policy</a> for details on sourcing, corrections, and how we handle sponsored content (we don't).</p>
+    </div>
+
+    <div class="sidebar-widget">
+      <h4>Newsletter</h4>
+      <p>Get our weekly digest of the best design writing—no spam, ever.</p>
+      <div style="margin-top: 16px;">
+        <input type="email" id="sidebarEmail" placeholder="Your email address" style="width: 100%; padding: 12px 16px; border: 1px solid var(--border); border-radius: 40px; font-family: var(--sans); margin-bottom: 12px; outline: none;" aria-label="Email for newsletter">
+        <button id="sidebarSubscribe" style="width: 100%; background: var(--accent); border: none; border-radius: 40px; padding: 12px; color: white; font-weight: 500; cursor: pointer;">Subscribe</button>
+      </div>
+    </div>
+
+    <div class="sidebar-widget">
+      <h4>Contact</h4>
+      <p style="margin-bottom: 8px;"><strong>General enquiries:</strong><br>hello@envisionedliving.com</p>
+      <p style="margin-bottom: 8px;"><strong>Write for us:</strong><br>editorial@envisionedliving.com</p>
+      <p><strong>Advertise:</strong><br>partners@envisionedliving.com</p>
+    </div>
+
+  </aside>
+</main>
+
+<!-- ========== NEWSLETTER ========== -->
+<section class="newsletter">
+  <div class="container">
+    <div>
+      <h3>Design stories, delivered weekly.</h3>
+      <p>Join 12,000+ readers who get our carefully curated digest every Thursday.</p>
+    </div>
+    <form class="newsletter-form" id="mainNewsletterForm" onsubmit="event.preventDefault(); alert('Thank you for subscribing.');">
+      <input type="email" placeholder="Your email address" aria-label="Email address" required>
+      <button type="submit">Subscribe</button>
+    </form>
+  </div>
+</section>
+
+<!-- ========== FOOTER ========== -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="logo" style="font-size: 1.3rem; margin-bottom: 16px;">Envisioned <span>Living Spaces</span></div>
+        <p style="font-size: 0.9rem; max-width: 280px; color: #5a5a5a;">An independent journal about interior design, architecture, and the art of living well. Published since 2019.</p>
+      </div>
+      <div>
+        <h5>Explore</h5>
+        <ul>
+          <li><a href="#">Interior Design</a></li>
+          <li><a href="#">Architecture</a></li>
+          <li><a href="#">Materials</a></li>
+          <li><a href="#">Lighting</a></li>
+          <li><a href="#">Small Spaces</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>About</h5>
+        <ul>
+          <li><a href="about.html">Our Editors</a></li>
+          <li><a href="#">Editorial Policy</a></li>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+          <li><a href="terms.html">Terms of Use</a></li>
+          <li><a href="cookies.html">Cookie Policy</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Contact</h5>
+        <ul>
+          <li><a href="contact.html">hello@envisionedliving.com</a></li>
+          <li><a href="#">Write for us</a></li>
+          <li><a href="#">Advertise</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2025 Envisioned Living Spaces. All rights reserved.</span>
+      <span>Made with <i class="fas fa-heart" style="color: var(--accent);"></i> for thoughtful design.</span>
+    </div>
+  </div>
+</footer>
+
+<!-- ========== JAVASCRIPT ========== -->
+<script>
+  (function() {
+    // --- SIDEBAR SUBSCRIBE ---
+    const sidebarBtn = document.getElementById('sidebarSubscribe');
+    const sidebarEmail = document.getElementById('sidebarEmail');
+    if (sidebarBtn && sidebarEmail) {
+      sidebarBtn.addEventListener('click', () => {
+        if (sidebarEmail.value && sidebarEmail.value.includes('@')) {
+          alert('Thank you for subscribing. Check your inbox for a confirmation.');
+          sidebarEmail.value = '';
+        } else {
+          alert('Please enter a valid email address.');
+        }
+      });
+    }
+
+    // --- MAIN NEWSLETTER (already prevented default via onsubmit) ---
+    // Additional safety: handle if onsubmit is bypassed
+    const mainForm = document.getElementById('mainNewsletterForm');
+    if (mainForm) {
+      mainForm.addEventListener('submit', (e) => {
+        e.preventDefault();
+        alert('Thank you for subscribing. Check your inbox for a confirmation.');
+        const input = mainForm.querySelector('input[type="email"]');
+        if (input) input.value = '';
+      });
+    }
+
+    // --- SEARCH TOGGLE (optional, but kept for consistency) ---
+    const searchToggle = document.getElementById('searchToggle');
+    if (searchToggle) {
+      // On about page, search just links back to home or does nothing—we'll keep it simple
+      searchToggle.addEventListener('click', () => {
+        window.location.href = 'index.html';
+      });
+    }
+  })();
+</script>
+
+</body>
+</html>

@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Categories · Envisioned Living Spaces</title>
+  <meta name="description" content="Browse all categories — interior design, architecture, materials, lighting, small spaces, and more from Envisioned Living Spaces.">
+  <meta name="author" content="Envisioned Living Spaces">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://www.envisionedlivingspaces.com/categories.html">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Categories · Envisioned Living Spaces">
+  <meta property="og:description" content="Browse all categories — interior design, architecture, materials, lighting, small spaces, and more.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.envisionedlivingspaces.com/categories.html">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=1200&h=630&fit=crop">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:site_name" content="Envisioned Living Spaces">
+
+  <!-- Fonts & Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+  <style>
+    /* ---------- RESET & BASE ---------- */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    :root {
+      --ink: #1e1e1e;
+      --paper: #faf9f7;
+      --muted: #6b6b6b;
+      --border: #e3e1dc;
+      --accent: #b85c38;
+      --accent-soft: #f4ede9;
+      --serif: 'Playfair Display', Georgia, serif;
+      --sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      --radius: 12px;
+      --shadow-sm: 0 2px 8px rgba(0,0,0,0.02);
+      --shadow-md: 0 6px 20px rgba(0,0,0,0.04);
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background: var(--paper);
+      color: var(--ink);
+      font-family: var(--sans);
+      font-weight: 400;
+      line-height: 1.6;
+      font-size: 16px;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    img {
+      max-width: 100%;
+      display: block;
+      height: auto;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    /* ---------- TYPOGRAPHY ---------- */
+    h1, h2, h3, h4 {
+      font-family: var(--serif);
+      font-weight: 500;
+      line-height: 1.2;
+      letter-spacing: -0.01em;
+    }
+
+    h1 { font-size: 2.6rem; }
+    h2 { font-size: 2rem; margin: 2rem 0 1rem; }
+    h3 { font-size: 1.5rem; margin: 1.5rem 0 0.8rem; }
+    h4 { font-size: 1.2rem; margin: 1.2rem 0 0.6rem; }
+
+    p {
+      margin-bottom: 1.2rem;
+      color: #2a2a2a;
+    }
+
+    /* ---------- LAYOUT ---------- */
+    .container {
+      max-width: 1260px;
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+
+    /* ---------- HEADER ---------- */
+    .site-header {
+      border-bottom: 1px solid var(--border);
+      background: var(--paper);
+      padding: 16px 0;
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      backdrop-filter: blur(8px);
+      background: rgba(250, 249, 247, 0.92);
+    }
+
+    .header-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .logo {
+      display: flex;
+      align-items: baseline;
+      gap: 8px;
+      font-family: var(--serif);
+      font-size: 1.6rem;
+      font-weight: 500;
+      letter-spacing: -0.02em;
+      color: var(--ink);
+    }
+
+    .logo span {
+      font-family: var(--sans);
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.2em;
+      color: var(--muted);
+      font-weight: 400;
+      margin-left: 6px;
+    }
+
+    .main-nav {
+      display: flex;
+      gap: 32px;
+      font-size: 0.9rem;
+      font-weight: 450;
+      color: #3a3a3a;
+      flex-wrap: wrap;
+      list-style: none;
+    }
+
+    .main-nav a {
+      padding-bottom: 4px;
+      border-bottom: 1px solid transparent;
+      transition: border-color 0.2s;
+    }
+
+    .main-nav a:hover {
+      border-bottom-color: var(--accent);
+    }
+
+    .search-icon {
+      color: var(--ink);
+      font-size: 1rem;
+      cursor: pointer;
+      padding: 6px;
+    }
+
+    /* ---------- PAGE HEADER ---------- */
+    .page-header {
+      padding: 56px 0 24px;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 48px;
+    }
+
+    .page-header h1 {
+      font-size: 2.8rem;
+      margin-bottom: 12px;
+      max-width: 800px;
+    }
+
+    .page-header .subhead {
+      font-size: 1.15rem;
+      color: var(--muted);
+      max-width: 680px;
+      font-weight: 300;
+    }
+
+    /* ---------- CATEGORIES GRID ---------- */
+    .categories-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 32px;
+      margin: 0 0 72px;
+    }
+
+    .category-card {
+      background: #fff;
+      border-radius: var(--radius);
+      overflow: hidden;
+      box-shadow: var(--shadow-sm);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+      border: 1px solid var(--border);
+      display: flex;
+      flex-direction: column;
+    }
+
+    .category-card:hover {
+      transform: translateY(-4px);
+      box-shadow: var(--shadow-md);
+    }
+
+    .category-image {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      background: #e8e6e1;
+    }
+
+    .category-content {
+      padding: 24px 24px 28px;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .category-content h3 {
+      font-family: var(--serif);
+      font-size: 1.4rem;
+      margin: 0 0 8px;
+      font-weight: 500;
+    }
+
+    .category-content p {
+      font-size: 0.95rem;
+      color: #4a4a4a;
+      margin-bottom: 16px;
+      flex: 1;
+    }
+
+    .category-meta {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 0.8rem;
+      color: var(--muted);
+      border-top: 1px solid var(--border);
+      padding-top: 14px;
+      margin-top: auto;
+    }
+
+    .category-meta i {
+      margin-right: 6px;
+      color: var(--accent);
+    }
+
+    .category-count {
+      background: var(--accent-soft);
+      padding: 4px 12px;
+      border-radius: 30px;
+      font-weight: 500;
+      color: var(--accent);
+      font-size: 0.75rem;
+      letter-spacing: 0.02em;
+    }
+
+    /* ---------- FEATURED CATEGORY (highlight) ---------- */
+    .category-card.featured {
+      grid-column: span 2;
+      flex-direction: row;
+    }
+
+    .category-card.featured .category-image {
+      width: 45%;
+      height: auto;
+      min-height: 280px;
+    }
+
+    .category-card.featured .category-content {
+      width: 55%;
+      padding: 36px 36px 32px;
+    }
+
+    .category-card.featured .category-content h3 {
+      font-size: 1.8rem;
+    }
+
+    /* ---------- NEWSLETTER ---------- */
+    .newsletter {
+      background: #1e1e1e;
+      color: #f0eeeb;
+      padding: 64px 0;
+      margin: 48px 0 0;
+    }
+
+    .newsletter .container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 32px;
+    }
+
+    .newsletter h3 {
+      font-family: var(--serif);
+      font-size: 1.8rem;
+      margin: 0 0 6px;
+      color: #fff;
+    }
+
+    .newsletter p {
+      color: #b0a9a3;
+      margin: 0;
+      font-size: 0.95rem;
+    }
+
+    .newsletter-form {
+      display: flex;
+      gap: 12px;
+    }
+
+    .newsletter-form input {
+      padding: 14px 20px;
+      border-radius: 40px;
+      border: 1px solid #444;
+      background: transparent;
+      color: #fff;
+      font-family: var(--sans);
+      font-size: 0.95rem;
+      width: 280px;
+      outline: none;
+    }
+
+    .newsletter-form input::placeholder {
+      color: #7a7a7a;
+    }
+
+    .newsletter-form button {
+      background: var(--accent);
+      border: none;
+      border-radius: 40px;
+      padding: 0 28px;
+      font-weight: 500;
+      color: #fff;
+      font-family: var(--sans);
+      font-size: 0.95rem;
+      cursor: pointer;
+      transition: background 0.2s;
+      white-space: nowrap;
+    }
+
+    .newsletter-form button:hover {
+      background: #9e4d2f;
+    }
+
+    /* ---------- FOOTER ---------- */
+    .site-footer {
+      background: #f0eeeb;
+      padding: 56px 0 32px;
+      font-size: 0.85rem;
+      color: #3a3a3a;
+      border-top: 1px solid var(--border);
+    }
+
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr 1fr;
+      gap: 48px;
+      margin-bottom: 48px;
+    }
+
+    .footer-grid h5 {
+      font-family: var(--sans);
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: var(--muted);
+      margin-bottom: 20px;
+      font-weight: 600;
+    }
+
+    .footer-grid ul {
+      list-style: none;
+    }
+
+    .footer-grid li {
+      margin-bottom: 10px;
+    }
+
+    .footer-grid a:hover {
+      color: var(--accent);
+    }
+
+    .footer-bottom {
+      border-top: 1px solid var(--border);
+      padding-top: 24px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 16px;
+      font-size: 0.8rem;
+      color: var(--muted);
+    }
+
+    /* ---------- RESPONSIVE ---------- */
+    @media (max-width: 1024px) {
+      .footer-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+      .categories-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      .category-card.featured {
+        grid-column: span 2;
+      }
+    }
+
+    @media (max-width: 768px) {
+      h1 { font-size: 2rem; }
+      .page-header h1 { font-size: 2rem; }
+      .page-header .subhead { font-size: 1rem; }
+      .header-inner {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .main-nav {
+        gap: 20px;
+        font-size: 0.8rem;
+      }
+      .newsletter .container {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .newsletter-form {
+        width: 100%;
+        flex-direction: column;
+      }
+      .newsletter-form input {
+        width: 100%;
+      }
+      .newsletter-form button {
+        padding: 14px 28px;
+      }
+      .footer-grid {
+        grid-template-columns: 1fr;
+        gap: 32px;
+      }
+      .categories-grid {
+        grid-template-columns: 1fr;
+        gap: 24px;
+      }
+      .category-card.featured {
+        grid-column: span 1;
+        flex-direction: column;
+      }
+      .category-card.featured .category-image {
+        width: 100%;
+        min-height: 200px;
+        height: 200px;
+      }
+      .category-card.featured .category-content {
+        width: 100%;
+        padding: 24px;
+      }
+      .category-card.featured .category-content h3 {
+        font-size: 1.5rem;
+      }
+    }
+
+    .hidden { display: none; }
+
+    /* ---------- SMALL UTILITY ---------- */
+    .text-center { text-align: center; }
+    .mt-4 { margin-top: 24px; }
+  </style>
+</head>
+<body>
+
+<!-- ========== HEADER ========== -->
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="index.html" class="logo">Envisioned <span>Living Spaces</span></a>
+    <nav class="main-nav" aria-label="Main navigation">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="terms.html">Terms Of Privacy</a></li>
+      <li><a href="privacy.html">Privacy Policy</a></li>
+      <li><a href="cookies.html">Cookies Policy</a></li>
+      <li><a href="disclaimer.html">Disclaimer</a></li>
+      <li><a href="categories.html" style="border-bottom-color: var(--accent);">Categories</a></li>
+    </nav>
+    <div class="search-icon" id="searchToggle" aria-label="Search articles">
+      <i class="fas fa-search"></i>
+    </div>
+  </div>
+</header>
+
+<!-- ========== PAGE HEADER ========== -->
+<div class="container page-header">
+  <h1>Categories</h1>
+  <p class="subhead">Explore our editorial sections — from interior design and architecture to materials, lighting, and the art of small spaces.</p>
+</div>
+
+<!-- ========== CATEGORIES GRID ========== -->
+<main class="container">
+  <div class="categories-grid">
+
+    <!-- Featured category (spans 2 columns) -->
+    <a href="#" class="category-card featured">
+      <img class="category-image" src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=800&h=600&fit=crop" alt="Interior design living room" loading="lazy">
+      <div class="category-content">
+        <h3>Interior Design</h3>
+        <p>Thoughtful interiors, curated furniture, and the details that make a room feel like home. From minimalist lofts to layered traditional spaces — we explore how design shapes the way we live.</p>
+        <div class="category-meta">
+          <span><i class="far fa-file-alt"></i> 48 articles</span>
+          <span class="category-count">Most popular</span>
+        </div>
+      </div>
+    </a>
+
+    <!-- Architecture -->
+    <a href="#" class="category-card">
+      <img class="category-image" src="https://images.unsplash.com/photo-1487958449943-2429e8be8625?w=600&h=400&fit=crop" alt="Modern architecture building" loading="lazy">
+      <div class="category-content">
+        <h3>Architecture</h3>
+        <p>Residential and public architecture, adaptive reuse, and the built environment. We look at how structures frame our daily lives.</p>
+        <div class="category-meta">
+          <span><i class="far fa-file-alt"></i> 32 articles</span>
+        </div>
+      </div>
+    </a>
+
+    <!-- Materials -->
+    <a href="#" class="category-card">
+      <img class="category-image" src="https://images.unsplash.com/photo-1519710164239-da123dc03ef4?w=600&h=400&fit=crop" alt="Natural materials texture" loading="lazy">
+      <div class="category-content">
+        <h3>Materials</h3>
+        <p>Stone, timber, clay, and glass — the tactile elements that give spaces their character. A deep dive into finishes and their origins.</p>
+        <div class="category-meta">
+          <span><i class="far fa-file-alt"></i> 24 articles</span>
+        </div>
+      </div>
+    </a>
+
+    <!-- Lighting -->
+    <a href="#" class="category-card">
+      <img class="category-image" src="https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?w=600&h=400&fit=crop" alt="Warm lighting interior" loading="lazy">
+      <div class="category-content">
+        <h3>Lighting</h3>
+        <p>From daylighting strategies to sculptural fixtures. How light defines mood, function, and the perception of space.</p>
+        <div class="category-meta">
+          <span><i class="far fa-file-alt"></i> 19 articles</span>
+        </div>
+      </div>
+    </a>
+
+    <!-- Small Spaces -->
+    <a href="#" class="category-card">
+      <img class="category-image" src="https://images.unsplash.com/photo-1554995207-c18c203602cb?w=600&h=400&fit=crop" alt="Small apartment interior" loading="lazy">
+      <div class="category-content">
+        <h3>Small Spaces</h3>
+        <p>Smart solutions for compact living — studio apartments, tiny homes, and clever storage that doesn't compromise on style.</p>
+        <div class="category-meta">
+          <span><i class="far fa-file-alt"></i> 27 articles</span>
+        </div>
+      </div>
+    </a>
+
+    <!-- Outdoor -->
+    <a href="#" class="category-card">
+      <img class="category-image" src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=600&h=400&fit=crop" alt="Outdoor terrace garden" loading="lazy">
+      <div class="category-content">
+        <h3>Outdoor Living</h3>
+        <p>Terraces, courtyards, and gardens — extending the home beyond its walls. Design ideas for balconies, patios, and green roofs.</p>
+        <div class="category-meta">
+          <span><i class="far fa-file-alt"></i> 16 articles</span>
+        </div>
+      </div>
+    </a>
+
+    <!-- Sustainability -->
+    <a href="#" class="category-card">
+      <img class="category-image" src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=600&h=400&fit=crop" alt="Sustainable green building" loading="lazy">
+      <div class="category-content">
+        <h3>Sustainability</h3>
+        <p>Passive design, eco-friendly materials, and energy-efficient systems. Building responsibly for the next generation.</p>
+        <div class="category-meta">
+          <span><i class="far fa-file-alt"></i> 21 articles</span>
+        </div>
+      </div>
+    </a>
+
+    <!-- Art & Decor -->
+    <a href="#" class="category-card">
+      <img class="category-image" src="https://images.unsplash.com/photo-1513519245088-0e12902e5a38?w=600&h=400&fit=crop" alt="Art and decor objects" loading="lazy">
+      <div class="category-content">
+        <h3>Art &amp; Decor</h3>
+        <p>Curated objects, wall art, ceramics, and textiles. The finishing touches that tell your story and add soul to a space.</p>
+        <div class="category-meta">
+          <span><i class="far fa-file-alt"></i> 18 articles</span>
+        </div>
+      </div>
+    </a>
+
+  </div>
+</main>
+
+<!-- ========== NEWSLETTER ========== -->
+<section class="newsletter">
+  <div class="container">
+    <div>
+      <h3>Design stories, delivered weekly.</h3>
+      <p>Join 12,000+ readers who get our carefully curated digest every Thursday.</p>
+    </div>
+    <form class="newsletter-form" id="mainNewsletterForm" onsubmit="event.preventDefault(); alert('Thank you for subscribing.');">
+      <input type="email" placeholder="Your email address" aria-label="Email address" required>
+      <button type="submit">Subscribe</button>
+    </form>
+  </div>
+</section>
+
+<!-- ========== FOOTER ========== -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="logo" style="font-size: 1.3rem; margin-bottom: 16px;">Envisioned <span>Living Spaces</span></div>
+        <p style="font-size: 0.9rem; max-width: 280px; color: #5a5a5a;">An independent journal about interior design, architecture, and the art of living well. Published since 2019.</p>
+      </div>
+      <div>
+        <h5>Explore</h5>
+        <ul>
+          <li><a href="#">Interior Design</a></li>
+          <li><a href="#">Architecture</a></li>
+          <li><a href="#">Materials</a></li>
+          <li><a href="#">Lighting</a></li>
+          <li><a href="#">Small Spaces</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>About</h5>
+        <ul>
+          <li><a href="about.html">Our Editors</a></li>
+          <li><a href="#">Editorial Policy</a></li>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+          <li><a href="terms.html">Terms of Use</a></li>
+          <li><a href="cookies.html">Cookie Policy</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Contact</h5>
+        <ul>
+          <li><a href="contact.html">hello@envisionedliving.com</a></li>
+          <li><a href="#">Write for us</a></li>
+          <li><a href="#">Advertise</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2025 Envisioned Living Spaces. All rights reserved.</span>
+      <span>Made with <i class="fas fa-heart" style="color: var(--accent);"></i> for thoughtful design.</span>
+    </div>
+  </div>
+</footer>
+
+<!-- ========== JAVASCRIPT ========== -->
+<script>
+  (function() {
+    // --- NEWSLETTER FORM ---
+    const mainForm = document.getElementById('mainNewsletterForm');
+    if (mainForm) {
+      mainForm.addEventListener('submit', (e) => {
+        e.preventDefault();
+        alert('Thank you for subscribing. Check your inbox for a confirmation.');
+        const input = mainForm.querySelector('input[type="email"]');
+        if (input) input.value = '';
+      });
+    }
+
+    // --- SEARCH TOGGLE ---
+    const searchToggle = document.getElementById('searchToggle');
+    if (searchToggle) {
+      searchToggle.addEventListener('click', () => {
+        window.location.href = 'index.html';
+      });
+    }
+  })();
+</script>
+
+</body>
+</html>
